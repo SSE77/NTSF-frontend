@@ -86,8 +86,8 @@ body
 {
     position:absolute;
     background-color:#C2C4C6; 
-    height:450px;
-    width:550px;
+    height:400px;
+    width:680px;
     border-radius:15px;
     text-align: center;
     left: 50%; 
@@ -112,25 +112,23 @@ body
 
 .input 
 {   
-    width:380px;
+    width:525px;
     border-radius: 5px; 
     border:none;
     align-items: center;
 } 
 
 select 
-{   
-    width:380px;
+{
     border-radius: 5px; 
     border:none; 
     align-items: right;
-    margin-right: 20px;
 }
 
 textarea
 {
-    width:380px;
-    height:100px;
+    width:525px;
+    height:150px;
     border-radius: 5px;
     border:none;
     margin-left: 105px;
@@ -138,48 +136,55 @@ textarea
     
 } 
 
+.useridfillrow 
+{   
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
 .namefillrow
 {   
     padding-top: 5px;
     padding-bottom: 10px;
-    margin-right: 20px;
 }
 
 .nicfillrow
 {
     padding-bottom: 10px;
-    margin-right: 20px;
 } 
 
 .contactnofillrow
 {
     padding-bottom: 10px;
-    margin-right: 20px;
 } 
 
 .titlefillrow
 {   
     padding-bottom: 10px;
     margin-left: 65px;
-    margin-right: 20px;
 } 
 
 .description 
 { 
     text-align:left;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 10px;
 } 
 
 .descriptionfillrow
 {
     padding-bottom: 10px;
-    margin-right: 20px;
 } 
+
+.complaintnofillrow
+{
+    padding-bottom: 10px;
+}
 
 .uploadfootages-btn 
 {   
-    margin-top:15px;
+    margin-top:10px;
     width:150px;
     height:30px; 
     align-items: center; 
