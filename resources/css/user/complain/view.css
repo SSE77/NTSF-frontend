@@ -105,14 +105,26 @@ body
 {
     margin-top: 10px;
     padding-left: 10px;
-}
+    /*border-left: 2px solid black;*/
+} 
+
+/*.table tr 
+{
+    border-left: 2px solid black;
+}*/
 
 .table th, td 
 {
     padding: 30px;
     text-align: center;
     margin-left: 10px;
+    /*border-left: 2px solid black;*/
 }   
+
+/*td:first-child
+{
+    border-left:none;
+}*/
  
 .addcomplaint-btn 
 {
@@ -122,20 +134,16 @@ body
     height:30px; 
     background-color: #4B6E8E; 
     cursor: pointer;  
-    margin-top: -20px;
-    margin-left: 500px;
+    margin-top: 410px;
+    margin-left: 630px;
     border-radius: 30px;
     border:none;
     transform: translate(-50%);
     color:white;
+    
 } 
 
 .addcomplaint-btn:hover 
 {
     background-color: #587691;
-}
-
-b 
-{
-    font-weight: 32px;
 }
